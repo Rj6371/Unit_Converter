@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 900;
+  background: lightyellow;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: absolute;
+  top: -20%;
+  right: 10%;
+}
+.container span{
+  margin-left: 30px;
+}
+
+.container .con{
+ margin:1rem;
+}
+
+input{
+  padding: .8rem;
+  border-radius: 1rem;
+}
